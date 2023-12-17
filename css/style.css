@@ -1252,6 +1252,11 @@ img{
 	margin-bottom:30px;
 }
 
+.service-style-three .inner-box .icon img{
+	height: 30px;
+	width: 30px;
+}
+
 .service-style-one .inner-box h3{
 	color:#3b566e;
 	font-size:18px;
@@ -3215,6 +3220,9 @@ img{
 	position:relative;
 	padding:100px 0px;
 	background:#f9fcfe;
+	border: #00000e 2px solid;
+	display: grid;
+	grid-template-columns: 1fr 1f1 1fr;
 }
 
 .service-style-three{
@@ -3225,7 +3233,9 @@ img{
 .service-style-three .inner-box{
 	position:relative;
 	display:block;
-	padding:45px 35px;
+	padding:20% 20%;
+	min-height: 60px;
+	text-wrap: stable;
 	background:#fcfeff;
 	border:1px solid #deeefc;
 	border-radius:3px;
